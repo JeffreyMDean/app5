@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  get "/random1", controller: "examples", action: "random1"
+  get "/random2", controller: "examples", action: "random2"
 end
