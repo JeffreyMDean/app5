@@ -1,6 +1,6 @@
 class ExamplesController < ApplicationController
   def random1
-    current_time = Time.now.strftime("%m/%d/%Y %H:%M")
+    current_time = Time.now.strftime("%m/%d/%Y %H:%M %P")
     render json: {message: "The time is #{current_time}"}
   end
 
